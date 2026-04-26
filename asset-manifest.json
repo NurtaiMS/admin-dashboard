@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NurtaiMS/admin-dashboard/static/css/main.76638935.css",
+    "main.js": "/NurtaiMS/admin-dashboard/static/js/main.692e91da.js",
+    "index.html": "/NurtaiMS/admin-dashboard/index.html",
+    "main.76638935.css.map": "/NurtaiMS/admin-dashboard/static/css/main.76638935.css.map",
+    "main.692e91da.js.map": "/NurtaiMS/admin-dashboard/static/js/main.692e91da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76638935.css",
+    "static/js/main.692e91da.js"
+  ]
+}
