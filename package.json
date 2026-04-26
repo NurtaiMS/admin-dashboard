@@ -1,5 +1,6 @@
 {
   "name": "admin-dashboard",
+  "homepage": "https://github.com/NurtaiMS/admin-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,16 +8,27 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.15.2",
+    "bootstrap": "^5.3.8",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-hook-form": "^7.74.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.14.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "recharts": "^3.8.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 5000",
+    "dev": "npm run server & npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "json-server": "^1.0.0-beta.15"
   }
 }
